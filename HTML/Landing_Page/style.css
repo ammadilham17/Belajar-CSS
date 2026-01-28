@@ -1,0 +1,98 @@
+/*RESET*/
+/*
+Fungsi margin adalah untuk mengatur jarak di luar elemen,
+sedangkan padding adalah untuk mengatur jarak di dalam elemen.
+Box-sizixing: border-box memastikan bahwa padding dan border
+termasuk dalam lebar dan tinggi elemen.
+*/
+ {margin: 0; padding: 0; box-sizing: border-box;}
+
+/*GLOBAL*/
+/*
+Fungsi font-family uutuk menentukan jenis huruf yang digunakan pada teks,
+Fungsi color untuk mengatur warna teks,
+Fungsi line-height untuk mengatur jarak antar baris teks.
+Fungsi width untuk mengatur lebar elemen,
+Fungsi max-width untuk mengatur lebar maksimum elemen,
+Fungsi margin auto untuk mengatur jarak otomatis di kiri dan kanan elemen agar berada di tengah,
+Fungsi text-decoration untuk mengatur dekorasi teks,
+
+*/
+ body {font-family: Arial, sans-serif; color: #333; line-height: 1.6;}
+.container {width: 90%; max-width: 900px; margin: auto;}
+a {text-decoration: none; color: inherit;}
+
+/*HEADER*/
+/*
+Fungsi background untuk mengatur warna latar belakang elemen,
+Fungsi padding untuk mengatur jarak di dalam elemen,
+Fungsi font-size untuk mengatur ukuran huruf,
+Fungsi margin-right untuk mengatur jarak kanan antar elemen.
+Fungsi color untuk mengatur warna teks.
+*/
+.header {background: #1e3a8a; color: white; padding: 25px 0;}
+.logo {font-size: 22px;}
+.nav a {margin-right: 15px;}
+
+/*HERO*/
+/*
+Fungsi text-align untuk mengatur perataaan teks,
+Fungsi padding untuk mengatur jarak di dalam elemen,
+Fungsi backgrounf untuk mengatur warna latar belakang elemen,
+Fungsi margin-bottom untuk mengatur jarak bawah antar elemen.
+
+*/
+.hero {background: #e5e7eb; text-align: center ; padding: 60px 0;}
+.hero h2 {margin-bottom: 15px;}
+
+/*BUTTOM*/
+/*
+Fungsi display untuk mengatur tampilan elemen,
+Fungsi margin-top untuk mengatur jarak atas elemen,
+Fungsi padding untuk mengatur jarak di dalam elemen,
+Fungsi background untuk mengatur warna latar belakang elemen,
+Fungsi color untuk mengatur warna teks,
+Fungsi border-radius untuk mengatur sudut elemen agar melengkung.
+
+*/
+.btn {display: inline-block; margin-top: 20px; padding: 10px 20; background: #1e3a8a;
+    color: white; border-radius: 4px;}
+
+/*SECTION*/
+
+/*
+Fungsi padding untuk mengatur jarak di dalam elemen,
+Fungsi margin-bottom untuk mengatur jarak bawah antar elemen.
+Fungsi background untuk mengatur warna latar belakang elemen.
+*/
+.section {padding: 50px 0;}
+.section h2 {margin-bottom: 15px;}
+.light {background: #f9fafb;}
+
+/*LIST*/
+
+/*
+Fungsi margin-left untuk mengatur jarak kiri elemen,
+Fungsi margin-bottom untuk mengatur jarak bawah antar elemen.
+
+*/
+.list {margin-left: 20px;}
+.list li {margin-bottom: 8px;}
+/*CTA*/
+/*
+Fungsi background untuk mengatur warna latar belakang elemen,
+Fungsi color untuk mengatur warna teks,
+Fungsi text-align untuk mengatur perataan teks,
+Fungsi padding untuk mengatur jarak di dalam elemen.
+
+*/
+.cta {background: #1e3a8a; color: white; text-align: center; padding: 60px 0;}
+/*FOOTER*/
+
+/*
+Fungsi background untuk mengatur warna latar belakang elemen,
+Fungsi color untuk mengatur warna teks,
+Fungsi text-align untuk mengatur perataan teks,
+Fungsi padding untuk mengatur jarak di dalam elemen.
+*/
+.footer {background: #111837; color: white; text-align: center; padding: 15px 0;}
